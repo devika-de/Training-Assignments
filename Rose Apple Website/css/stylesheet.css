@@ -1,0 +1,94 @@
+body {
+  overflow-x: hidden;
+  word-wrap: normal;
+}
+.custom-cards {
+  background-color: #007bff;
+}
+.card {
+  width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  #carouselExampleCaptions,
+  #content,
+  .inner {
+    height: 200px;
+  }
+  h1 {
+    font-size: 2px;
+  }
+}
+.card {
+  align-self: center;
+  height: 100%;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-left:10px;
+  padding-right:30px;
+}
+.navbar #oleoimage {
+
+  padding-left:50px;
+  
+}
+.navbar #dropid {
+
+  padding-right:50px;
+  
+}
+.navbar #danimg {
+
+  padding-right:10px;
+  
+}
+.navbar #searchid {
+
+  margin-right:100px;
+  
+}
+.navbar #inputid   {
+
+  padding-right:10px;
+  
+}
+.down {
+  color: white;
+  text-align: center;
+}
+
+.card-img, .card-img-top {
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+#first {
+  background-image: url("../images/Group\ 87@2x.png");
+  background-size: cover;
+}
+#second {
+  background-image: url("../images/Group\ 88@2x.png");
+  background-size: cover;
+}
+.footerText {
+  font-size: 12px;
+  font-weight: bold;
+  color: #484848;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand{
+    padding-right: 300px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .navbar-brand{
+    padding-right: 100px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar-brand{
+    padding-right: 70px !important;
+  }
+}
+
